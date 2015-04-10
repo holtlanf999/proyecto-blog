@@ -26,7 +26,6 @@ header {
 
 /* line 10, ../scss/_styles.scss */
 .logo {
-  text-shadow: 2px 2px #75d5d1;
   color: #fff;
   font-size: 3rem;
   margin: 0 0 0 8%;
@@ -34,59 +33,57 @@ header {
   text-transform: uppercase;
 }
 
-/* line 19, ../scss/_styles.scss */
+/* line 18, ../scss/_styles.scss */
 nav {
   margin: 0 0 0 5%;
   width: 50%;
 }
-/* line 23, ../scss/_styles.scss */
+/* line 22, ../scss/_styles.scss */
 nav ul li {
   display: inline;
   list-style: none;
   margin: 0 1%;
 }
 
-/* line 31, ../scss/_styles.scss */
+/* line 30, ../scss/_styles.scss */
 .nav-link {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 600;
   padding: 1.2%;
   text-decoration: none;
-  text-shadow: 2px 2px #75d5d1;
 }
 
-/* line 40, ../scss/_styles.scss */
+/* line 38, ../scss/_styles.scss */
 .nav-link:hover {
   background-color: #4bbcc4;
 }
 
-/* line 44, ../scss/_styles.scss */
+/* line 42, ../scss/_styles.scss */
 .social-media-container {
   color: #fff;
   float: right;
   font-size: 1.5rem;
   margin: 5% 14.5% 6% 0;
-  text-shadow: 2px 2px #75d5d1;
   width: 15%;
 }
-/* line 52, ../scss/_styles.scss */
+/* line 49, ../scss/_styles.scss */
 .social-media-container p {
   float: left;
   margin: 1.5% 0 0 0;
 }
-/* line 57, ../scss/_styles.scss */
+/* line 54, ../scss/_styles.scss */
 .social-media-container a {
   display: inline-block;
   float: right;
   margin: 0 5%;
 }
-/* line 61, ../scss/_styles.scss */
+/* line 58, ../scss/_styles.scss */
 .social-media-container a img {
   width: 130%;
 }
 
-/* line 67, ../scss/_styles.scss */
+/* line 64, ../scss/_styles.scss */
 #main-content-articles {
   background-color: #fff;
   margin: -13.5% 0 0 8%;
@@ -94,72 +91,72 @@ nav ul li {
   width: 45%;
 }
 
-/* line 74, ../scss/_styles.scss */
+/* line 71, ../scss/_styles.scss */
 .news-principal {
   border-bottom: 1px solid #000;
   padding: 0 0 3% 0;
 }
-/* line 78, ../scss/_styles.scss */
+/* line 75, ../scss/_styles.scss */
 .news-principal h2 {
   margin: 0;
   width: 90%;
 }
-/* line 84, ../scss/_styles.scss */
+/* line 81, ../scss/_styles.scss */
 .news-principal time {
   display: block;
   margin: 1.5% 0;
 }
-/* line 89, ../scss/_styles.scss */
+/* line 86, ../scss/_styles.scss */
 .news-principal img {
   width: 100%;
 }
-/* line 93, ../scss/_styles.scss */
+/* line 90, ../scss/_styles.scss */
 .news-principal p {
   font-weight: 500;
 }
 
-/* line 98, ../scss/_styles.scss */
+/* line 95, ../scss/_styles.scss */
 .read-more {
   overflow: hidden;
 }
 
-/* line 103, ../scss/_styles.scss */
+/* line 100, ../scss/_styles.scss */
 .news-short {
   border-bottom: 1px solid #000;
   padding: 0 0 3% 0;
 }
-/* line 107, ../scss/_styles.scss */
+/* line 104, ../scss/_styles.scss */
 .news-short h3 {
   margin: 2% 0 0.5% 0;
 }
-/* line 112, ../scss/_styles.scss */
+/* line 109, ../scss/_styles.scss */
 .news-short time {
   display: block;
   margin: 1.5% 0;
 }
-/* line 117, ../scss/_styles.scss */
+/* line 114, ../scss/_styles.scss */
 .news-short img {
   float: left;
   width: 38%;
 }
-/* line 122, ../scss/_styles.scss */
+/* line 119, ../scss/_styles.scss */
 .news-short p {
   float: right;
   font-size: 1.2rem;
   margin: 0 0 2% 0;
   width: 60%;
 }
-/* line 129, ../scss/_styles.scss */
+/* line 126, ../scss/_styles.scss */
 .news-short a {
   margin: 0 0 0 2%;
 }
 
-/* line 134, ../scss/_styles.scss */
+/* line 131, ../scss/_styles.scss */
 .news-last {
   padding-bottom: 5em;
 }
 
-/* line 138, ../scss/_styles.scss */
+/* line 135, ../scss/_styles.scss */
 #load-more-btn {
   background-color: #00a0aa;
   border-radius: 0.5em;
@@ -173,17 +170,16 @@ nav ul li {
   width: 30%;
 }
 
-/* line 151, ../scss/_styles.scss */
+/* line 148, ../scss/_styles.scss */
 aside {
   display: inline-block;
-  border: 1px solid red;
   float: right;
-  margin: -120% 8% 0 auto;
+  margin: -120% 13% 0 auto;
   overflow: hidden;
-  width: 30%;
+  width: 26%;
 }
 
-/* line 161, ../scss/_styles.scss */
+/* line 157, ../scss/_styles.scss */
 .content-aside h4 {
   color: #00a0aa;
   border-bottom: 3px solid #00a0aa;
@@ -191,34 +187,101 @@ aside {
   margin: 5% 0 0 0;
   padding: 0 0 0.5% 0;
 }
-/* line 169, ../scss/_styles.scss */
+/* line 165, ../scss/_styles.scss */
 .content-aside label {
   display: none;
 }
+/* line 169, ../scss/_styles.scss */
+.content-aside a {
+  color: #000;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 2% 0 1% 0;
+  padding: 0 0 2% 0;
+  text-decoration: none;
+}
+/* line 179, ../scss/_styles.scss */
+.content-aside span {
+  color: #f77b09;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: -3% 0 4% 0;
+  padding: 0 0 4% 0;
+  width: 100%;
+}
 
-/* line 175, ../scss/_styles.scss */
+/* line 190, ../scss/_styles.scss */
 form {
   overflow: hidden;
 }
 
-/* line 179, ../scss/_styles.scss */
+/* line 194, ../scss/_styles.scss */
 .email {
   background-color: #d4d4d4;
   border: none;
-  font-size: 1.5rem;
-  height: 1.8em;
+  height: 3em;
   margin: 0;
+  padding: 0 0 0 5%;
   width: 65%;
   text-transform: uppercase;
 }
 
-/* line 189, ../scss/_styles.scss */
+/* line 204, ../scss/_styles.scss */
 .submit-btn {
   background-color: #2aa9e0;
   border: none;
   color: #fff;
-  height: 2.9em;
+  height: 3em;
   margin: 0 0 0 1%;
-  width: 25%;
+  width: 28%;
   text-transform: uppercase;
+}
+
+/* line 214, ../scss/_styles.scss */
+.ad-box {
+  padding: 8% 8%;
+}
+
+/* line 218, ../scss/_styles.scss */
+.border-link {
+  border-bottom: 1px solid #000;
+}
+
+/* line 222, ../scss/_styles.scss */
+footer {
+  background-color: #cdcdcd;
+  color: #5d5d5d;
+  margin: 5em 0 0 0;
+  overflow: hidden;
+}
+
+/* line 229, ../scss/_styles.scss */
+.footer-nav {
+  display: inline-block;
+  float: left;
+  margin: 1% 0 0 8%;
+  width: 50%;
+}
+/* line 236, ../scss/_styles.scss */
+.footer-nav ul li {
+  display: inline-block;
+  margin: 0 1%;
+}
+
+/* line 244, ../scss/_styles.scss */
+.links-nav-footer {
+  color: #5a5a5a;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* line 251, ../scss/_styles.scss */
+#social-footer {
+  display: inline-block;
+  color: #5a5a5a;
+  margin: 1.5% 8% 1% 0;
+  float: right;
 }
