@@ -129,8 +129,69 @@ nav{
 	a{
 		margin: 0 0 0 2%;
 	}
+}
+
+.news-last{
+	padding-bottom: 5em;
+}
+
+#load-more-btn{
+	background-color: #00a0aa;
+	border-radius: 0.5em;
+	color: #fff;
+	font-size: 1.5rem;
+	display: block;
+	margin: -3.5% auto;
+	padding: 1.5% 0;
+	text-align: center;
+	text-decoration: none;
+	width: 30%;
+}
+
+aside{
+	display: inline-block;
+	border: 1px solid red;
+	float: right;
+	margin: -120% 8% 0 auto;
+	overflow: hidden;
+	width: 30%;	
+}
+
+.content-aside{
+	h4{
+		color: #00a0aa;
+		border-bottom: 3px solid #00a0aa;
+		font-size: 1.5rem;
+		margin: 5% 0 0 0;
+		padding: 0 0 0.5% 0;
+	}
+	
+	label{
+		display: none;
+	}
 
 }
 
+form{
+	overflow: hidden;
+}
 
+.email{
+	background-color: #d4d4d4;
+	border: none;
+	font-size: 1.5rem;
+	height: 1.8em;
+	margin: 0;
+	width: 65%;
+	text-transform: uppercase;
+}
 
+.submit-btn{
+	background-color: #2aa9e0;
+	border: none;
+	color: #fff;
+	height: 2.9em;
+	margin: 0 0 0 1%;
+	width: 25%;
+	text-transform: uppercase;
+}
